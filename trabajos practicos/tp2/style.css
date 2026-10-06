@@ -1,0 +1,75 @@
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dcc66e;
+    margin: 0;
+    padding: 20px;
+    scroll-behavior: smooth; /* Hace que el desplazamiento por enlaces internos sea suave */
+}
+
+/* Botón superior */
+.btn-volver {
+    display: inline-block;
+    background-color: #337c3b;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* --- BARRA DE NAVEGACIÓN CON FLEXBOX --- */
+.navbar {
+    background-color: #b23123; /* Color de fondo oscuro como el modelo */
+    display: flex;             /* Activamos Flexbox */
+    justify-content: space-between; /* Separa el logo a la izquierda y los enlaces a la derecha */
+    align-items: center;       /* Centra los elementos verticalmente */
+    padding: 15px 25px;
+    border-radius: 4px;
+}
+
+/* Estilo del Logotipo */
+.logo {
+    color: #f490a4; /* Tono rosado/crema para resaltar */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Lista de enlaces */
+.nav-links {
+    list-style: none; /* Quita los puntos de la lista */
+    display: flex;    /* Pone los elementos de la lista uno al lado del otro */
+    gap: 20px;        /* Espacio entre cada enlace */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo de los enlaces individuales */
+.nav-links a {
+    color: #dcd6d0;
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    font-size: 1rem;
+    transition: color 0.3s ease; /* Transición suave para el efecto hover */
+}
+
+/* Efecto visual al pasar el mouse por encima (:hover) */
+.nav-links a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Secciones de ejemplo */
+.seccion {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.seccion h1, .seccion h2 {
+    color: #000000;
+}
+
+.seccion p {
+    color: #000000;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,55 @@
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color:burlywood;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo del botón superior */
+.btn-volver {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+/* Estilo base compartido por todas las tarjetas (Modelo de Caja) */
+.tarjeta {
+    border: 1px solid #c4b5b5; /* Borde personalizado */
+    border-radius: 6px;        /* Esquinas redondeadas */
+    padding: 20px;             /* Espacio interior para que el texto no toque el borde */
+    margin-bottom: 20px;       /* Separación exterior entre tarjeta y tarjeta */
+}
+
+/* Títulos dentro de las tarjetas */
+.tarjeta h2 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    color: #222;
+}
+
+/* Textos dentro de las tarjetas */
+.tarjeta p {
+    margin-bottom: 0;
+    color: #333;
+    line-height: 1.4;
+}
+
+/* Colores de fondo individuales para cada tarjeta */
+.tarjeta-1 {
+    background-color: #982c11;
+}
+
+.tarjeta-2 {
+    background-color: #dba92b;
+}
+
+
+.tarjeta-3 {
+    background-color: #286e91;
+}
